@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
     font-family: 'netflix', sans-serif;
+
+}
+body{
+    background: #000;
 }
 .main{
     background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/638e9299-0637-42d1-ba39-54ade4cf2bf6/web/IN-en-20250203-TRIFECTA-perspective_46eb8857-face-4ea6-b901-dbf22b461369_medium.jpg');
@@ -15,6 +19,7 @@
     /* object-fit: cover; */
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .op{
@@ -68,7 +73,7 @@ nav{
 }
 .hero{
     position: relative;
-    top:70px;
+    top:2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,22 +86,23 @@ nav{
     position: relative;
     z-index: 1;
     width: 700px;
-    font-size: 50px;
+    font-size: 4vw;
     font-weight: 900;
     color: white;
     text-align: center;
     line-height: 70px;
-    padding: 10px;
+    padding: 1px;
 
 }
 .starts{
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 700;
-    padding: 10px;
+    padding: 1vw;
 }
 .ready{
     margin-top: 30px;
+    
     color: white;
 }
 .sub{
@@ -125,4 +131,35 @@ nav{
     color: white;
     font-size: 25px;
     font-weight: 700;
+}
+.seperation{
+    width: 100%;
+    height: 10px;
+    background: grey;
+}
+.aft{
+    width: 90vw;
+    height: 100vh;
+    background: red;
+    margin: 50px auto 0px auto;
+}
+.trending span{
+    font-size: 2vw;
+}
+.boxtrend{
+    display: flex;
+    justify-content: center;
+}
+.box-trend{
+    margin: 10px;
+    height:250px;
+    width: 200px;
+    background: #000;
+    border-radius: 9px;
+    color: black;
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: left ;
+    align-content: end;
+    -webkit-text-stroke: 2px white;
 }
